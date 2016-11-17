@@ -1,0 +1,20 @@
+<?php
+
+namespace Kartenmacherei\HttpFramework\Http;
+
+/**
+ * @covers \Kartenmacherei\HttpFramework\Http\NotFoundStatusHeader
+ */
+class NotFoundStatusHeaderTest extends \PHPUnit_Framework_TestCase
+{
+    public function testCanSendStatusHeader()
+    {
+        $statusHeader = new NotFoundStatusHeader();
+
+        $statusHeader->send();
+
+        $mockedHeaders = HeaderTestHelper::getText();
+
+        $this->assertEquals('HTTP/1.1 404 Not Found', $mockedHeaders);
+    }
+}

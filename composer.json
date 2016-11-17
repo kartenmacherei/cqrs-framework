@@ -1,0 +1,22 @@
+{
+    "name": "kartenmacherei/http-framework",
+    "description": "Micro framework for creating HTTP applications",
+    "type": "library",
+    "keywords": ["framework", "http", "kartenmacherei"],
+    "homepage": "https://bitbucket.org/kartenmacherei/http-framework",
+    "license": "MIT",
+    "authors": [],
+    "autoload": {
+        "psr-4": {
+            "Kartenmacherei\\HttpFramework\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kartenmacherei\\HttpFramework\\UnitTests\\": "tests/Unit"
+        }
+    },
+    "require": {
+        "php" : ">=7.0.0"
+    }
+}
