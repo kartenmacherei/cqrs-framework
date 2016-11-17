@@ -1,5 +1,5 @@
 <?php
-namespace Kartenmacherei\HttpFramework\Response\Header;
+namespace Kartenmacherei\CQRSFramework\Response\Header;
 
 class NotFoundStatusHeader implements StatusHeader
 {

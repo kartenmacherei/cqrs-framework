@@ -1,8 +1,8 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\Response;
+namespace Kartenmacherei\CQRSFramework\Response;
 
-use Kartenmacherei\HttpFramework\Library\SessionId;
+use Kartenmacherei\CQRSFramework\Library\SessionId;
 
 abstract class AbstractResponse implements Response
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\Library\Exception;
+namespace Kartenmacherei\CQRSFramework\Library\Exception;
 
 interface Exception
 {

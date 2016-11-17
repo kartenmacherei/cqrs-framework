@@ -1,7 +1,7 @@
 <?php
-namespace Kartenmacherei\HttpFramework\Routing\Query;
+namespace Kartenmacherei\CQRSFramework\Routing\Query;
 
-use Kartenmacherei\HttpFramework\Response\Response;
+use Kartenmacherei\CQRSFramework\Response\Response;
 
 interface Query
 {

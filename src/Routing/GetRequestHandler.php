@@ -1,11 +1,11 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\Routing;
+namespace Kartenmacherei\CQRSFramework\Routing;
 
-use Kartenmacherei\HttpFramework\Request\GetRequest;
-use Kartenmacherei\HttpFramework\Request\Request;
-use Kartenmacherei\HttpFramework\Response\Response;
-use Kartenmacherei\HttpFramework\Routing\GetRoute\GetRouteChain;
+use Kartenmacherei\CQRSFramework\Request\GetRequest;
+use Kartenmacherei\CQRSFramework\Request\Request;
+use Kartenmacherei\CQRSFramework\Response\Response;
+use Kartenmacherei\CQRSFramework\Routing\GetRoute\GetRouteChain;
 
 class GetRequestHandler implements RequestHandler
 {

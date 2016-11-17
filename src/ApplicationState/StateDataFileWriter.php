@@ -1,10 +1,10 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\ApplicationState;
+namespace Kartenmacherei\CQRSFramework\ApplicationState;
 
-use Kartenmacherei\HttpFramework\Library\File\Directory;
-use Kartenmacherei\HttpFramework\Library\File\FileName;
-use Kartenmacherei\HttpFramework\Library\SessionId;
+use Kartenmacherei\CQRSFramework\Library\File\Directory;
+use Kartenmacherei\CQRSFramework\Library\File\FileName;
+use Kartenmacherei\CQRSFramework\Library\SessionId;
 
 class StateDataFileWriter
 {

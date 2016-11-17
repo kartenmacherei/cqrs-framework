@@ -1,9 +1,9 @@
 <?php
-namespace Kartenmacherei\HttpFramework\Routing\GetRoute;
+namespace Kartenmacherei\CQRSFramework\Routing\GetRoute;
 
-use Kartenmacherei\HttpFramework\Library\Exception\RoutingException;
-use Kartenmacherei\HttpFramework\Request\GetRequest;
-use Kartenmacherei\HttpFramework\Routing\Query\Query;
+use Kartenmacherei\CQRSFramework\Library\Exception\RoutingException;
+use Kartenmacherei\CQRSFramework\Request\GetRequest;
+use Kartenmacherei\CQRSFramework\Routing\Query\Query;
 
 class GetRouteChain
 {

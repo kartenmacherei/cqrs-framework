@@ -1,10 +1,10 @@
 <?php
-namespace Kartenmacherei\HttpFramework\Http;
+namespace Kartenmacherei\CQRSFramework\Http;
 
 /**
- * @covers \Kartenmacherei\HttpFramework\Http\Parameter
+ * @covers \Kartenmacherei\CQRSFramework\Http\Parameter
  *
- * @uses   Kartenmacherei\HttpFramework\Library\AbstractIdentifier
+ * @uses   Kartenmacherei\CQRSFramework\Library\AbstractIdentifier
  */
 class ParameterTest extends \PHPUnit_Framework_TestCase
 {

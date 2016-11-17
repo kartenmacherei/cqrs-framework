@@ -1,7 +1,7 @@
 <?php
-namespace Kartenmacherei\HttpFramework\Library\Parameter;
+namespace Kartenmacherei\CQRSFramework\Library\Parameter;
 
-use Kartenmacherei\HttpFramework\Library\Collection\CollectionElement;
+use Kartenmacherei\CQRSFramework\Library\Collection\CollectionElement;
 
 class Parameter implements CollectionElement
 {

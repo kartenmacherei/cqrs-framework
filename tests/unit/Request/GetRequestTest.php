@@ -1,15 +1,15 @@
 <?php
-namespace Kartenmacherei\HttpFramework\Http;
+namespace Kartenmacherei\CQRSFramework\Http;
 
-use Kartenmacherei\HttpFramework\Library\NotFoundInCollectionException;
-use Kartenmacherei\HttpFramework\Library\RuntimeException;
+use Kartenmacherei\CQRSFramework\Library\NotFoundInCollectionException;
+use Kartenmacherei\CQRSFramework\Library\RuntimeException;
 
 /**
- * @uses   \Kartenmacherei\HttpFramework\Http\Path
- * @uses   \Kartenmacherei\HttpFramework\Http\ParameterCollection
+ * @uses   \Kartenmacherei\CQRSFramework\Http\Path
+ * @uses   \Kartenmacherei\CQRSFramework\Http\ParameterCollection
  *
- * @uses   \Kartenmacherei\HttpFramework\Http\GetRequest
- * @uses   \Kartenmacherei\HttpFramework\Http\Request
+ * @uses   \Kartenmacherei\CQRSFramework\Http\GetRequest
+ * @uses   \Kartenmacherei\CQRSFramework\Http\Request
  */
 class GetRequestTest extends \PHPUnit_Framework_TestCase
 {

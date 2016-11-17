@@ -1,10 +1,10 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\Routing\Routing\PostRoute;
+namespace Kartenmacherei\CQRSFramework\Routing\Routing\PostRoute;
 
-use Kartenmacherei\HttpFramework\Library\Exception\RoutingException;
-use Kartenmacherei\HttpFramework\Request\PostRequest;
-use Kartenmacherei\HttpFramework\Routing\Command\Command;
+use Kartenmacherei\CQRSFramework\Library\Exception\RoutingException;
+use Kartenmacherei\CQRSFramework\Request\PostRequest;
+use Kartenmacherei\CQRSFramework\Routing\Command\Command;
 
 abstract class PostRoute
 {

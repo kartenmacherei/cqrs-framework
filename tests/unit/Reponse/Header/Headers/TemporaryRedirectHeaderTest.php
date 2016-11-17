@@ -1,9 +1,9 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\Http;
+namespace Kartenmacherei\CQRSFramework\Http;
 
 /**
- * @covers \Kartenmacherei\HttpFramework\Http\TemporaryRedirectHeader
+ * @covers \Kartenmacherei\CQRSFramework\Http\TemporaryRedirectHeader
  */
 class TemporaryRedirectHeaderTest extends \PHPUnit_Framework_TestCase
 {

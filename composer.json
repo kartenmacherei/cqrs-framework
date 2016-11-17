@@ -1,19 +1,19 @@
 {
     "name": "kartenmacherei/http-framework",
-    "description": "Micro framework for creating HTTP applications",
+    "description": "Micro framework for creating CQRS applications",
     "type": "library",
     "keywords": ["framework", "http", "kartenmacherei"],
-    "homepage": "https://bitbucket.org/kartenmacherei/http-framework",
+    "homepage": "https://bitbucket.org/kartenmacherei/cqrs-framework",
     "license": "MIT",
     "authors": [],
     "autoload": {
         "psr-4": {
-            "Kartenmacherei\\HttpFramework\\": "src"
+            "Kartenmacherei\\CQRSFramework\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Kartenmacherei\\HttpFramework\\UnitTests\\": "tests/Unit"
+            "Kartenmacherei\\CQRSFramework\\UnitTests\\": "tests/Unit"
         }
     },
     "require": {

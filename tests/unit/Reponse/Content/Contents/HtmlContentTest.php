@@ -1,9 +1,9 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\Http;
+namespace Kartenmacherei\CQRSFramework\Http;
 
 /**
- * @covers \Kartenmacherei\HttpFramework\Http\HtmlContent
+ * @covers \Kartenmacherei\CQRSFramework\Http\HtmlContent
  */
 class HtmlContentTest extends \PHPUnit_Framework_TestCase
 {

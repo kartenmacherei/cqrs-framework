@@ -1,8 +1,8 @@
 <?php
-namespace Kartenmacherei\HttpFramework\Library;
+namespace Kartenmacherei\CQRSFramework\Library;
 
 use InvalidArgumentException;
-use Kartenmacherei\HttpFramework\Request\Request;
+use Kartenmacherei\CQRSFramework\Request\Request;
 
 class SessionId
 {

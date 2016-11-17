@@ -1,19 +1,19 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\Http;
+namespace Kartenmacherei\CQRSFramework\Http;
 
-use Kartenmacherei\HttpFramework\StateDataService;
-use Kartenmacherei\HttpFramework\Query\ProjectViewQuery;
+use Kartenmacherei\CQRSFramework\StateDataService;
+use Kartenmacherei\CQRSFramework\Query\ProjectViewQuery;
 use PHPUnit_Framework_MockObject_MockObject;
 use PHPUnit_Framework_TestCase;
 
 /**
- * @uses   \Kartenmacherei\HttpFramework\Http\Path
- * @uses   \Kartenmacherei\HttpFramework\Http\Request
- * @uses   \Kartenmacherei\HttpFramework\Http\PostRequest
- * @uses   \Kartenmacherei\HttpFramework\Http\GetRequest
+ * @uses   \Kartenmacherei\CQRSFramework\Http\Path
+ * @uses   \Kartenmacherei\CQRSFramework\Http\Request
+ * @uses   \Kartenmacherei\CQRSFramework\Http\PostRequest
+ * @uses   \Kartenmacherei\CQRSFramework\Http\GetRequest
  *
- * @covers \Kartenmacherei\HttpFramework\Http\GetRequestHandler
+ * @covers \Kartenmacherei\CQRSFramework\Http\GetRequestHandler
  */
 class GetRequestHandlerTest extends PHPUnit_Framework_TestCase
 {

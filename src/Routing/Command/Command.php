@@ -1,7 +1,7 @@
 <?php
-namespace Kartenmacherei\HttpFramework\Routing\Command;
+namespace Kartenmacherei\CQRSFramework\Routing\Command;
 
-use Kartenmacherei\HttpFramework\Response\Response;
+use Kartenmacherei\CQRSFramework\Response\Response;
 
 interface Command
 {

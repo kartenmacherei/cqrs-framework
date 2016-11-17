@@ -1,22 +1,22 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\Http;
+namespace Kartenmacherei\CQRSFramework\Http;
 
-use Kartenmacherei\HttpFramework\StateDataService;
-use Kartenmacherei\HttpFramework\Factory;
-use Kartenmacherei\HttpFramework\Library\RoutingException;
-use Kartenmacherei\HttpFramework\Query\WelcomeQuery;
-use Kartenmacherei\HttpFramework\Query\WelcomeRoute;
+use Kartenmacherei\CQRSFramework\StateDataService;
+use Kartenmacherei\CQRSFramework\Factory;
+use Kartenmacherei\CQRSFramework\Library\RoutingException;
+use Kartenmacherei\CQRSFramework\Query\WelcomeQuery;
+use Kartenmacherei\CQRSFramework\Query\WelcomeRoute;
 use PHPUnit_Framework_MockObject_MockObject;
 use stdClass;
 
 /**
- * @uses   \Kartenmacherei\HttpFramework\Http\GetRoute
- * @uses   \Kartenmacherei\HttpFramework\Http\Path
- * @uses   \Kartenmacherei\HttpFramework\Query\WelcomeRoute
- * @uses   \Kartenmacherei\HttpFramework\Http\Request
+ * @uses   \Kartenmacherei\CQRSFramework\Http\GetRoute
+ * @uses   \Kartenmacherei\CQRSFramework\Http\Path
+ * @uses   \Kartenmacherei\CQRSFramework\Query\WelcomeRoute
+ * @uses   \Kartenmacherei\CQRSFramework\Http\Request
  *
- * @covers \Kartenmacherei\HttpFramework\Http\GetRouteChain
+ * @covers \Kartenmacherei\CQRSFramework\Http\GetRouteChain
  */
 class GetRouterTest extends \PHPUnit_Framework_TestCase
 {

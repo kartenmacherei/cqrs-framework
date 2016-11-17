@@ -1,12 +1,12 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\Http;
+namespace Kartenmacherei\CQRSFramework\Http;
 
 use PHPUnit_Framework_MockObject_MockObject;
 
 /**
- * @covers \Kartenmacherei\HttpFramework\Http\AbstractResponse
- * @covers \Kartenmacherei\HttpFramework\Http\ContentResponse
+ * @covers \Kartenmacherei\CQRSFramework\Http\AbstractResponse
+ * @covers \Kartenmacherei\CQRSFramework\Http\ContentResponse
  */
 class ContentResponseTest extends \PHPUnit_Framework_TestCase
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\Http;
+namespace Kartenmacherei\CQRSFramework\Http;
 
 /**
- * @covers \Kartenmacherei\HttpFramework\Http\NotFoundStatusHeader
+ * @covers \Kartenmacherei\CQRSFramework\Http\NotFoundStatusHeader
  */
 class NotFoundStatusHeaderTest extends \PHPUnit_Framework_TestCase
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\ApplicationState;
+namespace Kartenmacherei\CQRSFramework\ApplicationState;
 
-use Kartenmacherei\HttpFramework\Library\SessionId;
+use Kartenmacherei\CQRSFramework\Library\SessionId;
 
 class StateData
 {

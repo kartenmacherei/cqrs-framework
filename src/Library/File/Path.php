@@ -1,6 +1,6 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\Library\File;
+namespace Kartenmacherei\CQRSFramework\Library\File;
 
 class Path
 {

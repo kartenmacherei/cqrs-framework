@@ -1,8 +1,8 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\Render;
+namespace Kartenmacherei\CQRSFramework\Render;
 
-use Kartenmacherei\HttpFramework\Library\File\FileName;
+use Kartenmacherei\CQRSFramework\Library\File\FileName;
 
 interface Renderer
 {

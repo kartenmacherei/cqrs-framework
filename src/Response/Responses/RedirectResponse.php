@@ -1,9 +1,9 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\Response;
+namespace Kartenmacherei\CQRSFramework\Response;
 
-use Kartenmacherei\HttpFramework\Library\File\Path;
-use Kartenmacherei\HttpFramework\TemporaryRedirectHeader;
+use Kartenmacherei\CQRSFramework\Library\File\Path;
+use Kartenmacherei\CQRSFramework\TemporaryRedirectHeader;
 
 class RedirectResponse extends AbstractResponse
 {

@@ -2,6 +2,6 @@
 
 namespace Kartenmacherei\CQRSFramework\Library\Exception;
 
-class InvalidPathException extends CQRSException
+class InvalidConfigurationException extends CQRSException
 {
 }

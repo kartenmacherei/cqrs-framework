@@ -1,9 +1,9 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\Response;
+namespace Kartenmacherei\CQRSFramework\Response;
 
-use Kartenmacherei\HttpFramework\Response\Content\Content;
-use Kartenmacherei\HttpFramework\Response\Header\StatusHeader;
+use Kartenmacherei\CQRSFramework\Response\Content\Content;
+use Kartenmacherei\CQRSFramework\Response\Header\StatusHeader;
 
 class ContentResponse extends AbstractResponse
 {

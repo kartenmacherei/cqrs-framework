@@ -1,8 +1,8 @@
 <?php
-namespace Kartenmacherei\HttpFramework\Http;
+namespace Kartenmacherei\CQRSFramework\Http;
 
 /**
- * @covers \Kartenmacherei\HttpFramework\Http\Path
+ * @covers \Kartenmacherei\CQRSFramework\Http\Path
  */
 class PathTest extends \PHPUnit_Framework_TestCase
 {

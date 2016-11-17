@@ -1,9 +1,7 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\Library\Exception;
+namespace Kartenmacherei\CQRSFramework\Library\Exception;
 
-use RuntimeException;
-
-class PropertyNotSetException extends RuntimeException implements Exception
+class PropertyNotSetException extends CQRSException
 {
 }

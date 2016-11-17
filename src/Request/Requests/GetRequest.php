@@ -1,5 +1,5 @@
 <?php
-namespace Kartenmacherei\HttpFramework\Request;
+namespace Kartenmacherei\CQRSFramework\Request;
 
 class GetRequest extends Request
 {

@@ -1,8 +1,8 @@
 <?php
-namespace Kartenmacherei\HttpFramework;
+namespace Kartenmacherei\CQRSFramework;
 
-use Kartenmacherei\HttpFramework\Library\File\Path;
-use Kartenmacherei\HttpFramework\Response\Header\Header;
+use Kartenmacherei\CQRSFramework\Library\File\Path;
+use Kartenmacherei\CQRSFramework\Response\Header\Header;
 
 class TemporaryRedirectHeader implements Header
 {

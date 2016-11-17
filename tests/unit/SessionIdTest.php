@@ -1,9 +1,9 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\Http;
+namespace Kartenmacherei\CQRSFramework\Http;
 
 /**
- * @covers \Kartenmacherei\HttpFramework\Http\SessionId
+ * @covers \Kartenmacherei\CQRSFramework\Http\SessionId
  */
 class SessionIdTest extends \PHPUnit_Framework_TestCase
 {

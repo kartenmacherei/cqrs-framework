@@ -1,6 +1,6 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\Library\Collection;
+namespace Kartenmacherei\CQRSFramework\Library\Collection;
 
 interface CollectionElement
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\Routing;
+namespace Kartenmacherei\CQRSFramework\Routing;
 
-use Kartenmacherei\HttpFramework\Request\PostRequest;
-use Kartenmacherei\HttpFramework\Request\Request;
-use Kartenmacherei\HttpFramework\Response\Response;
-use Kartenmacherei\HttpFramework\Routing\PostRoute\PostRouteChain;
+use Kartenmacherei\CQRSFramework\Request\PostRequest;
+use Kartenmacherei\CQRSFramework\Request\Request;
+use Kartenmacherei\CQRSFramework\Response\Response;
+use Kartenmacherei\CQRSFramework\Routing\PostRoute\PostRouteChain;
 
 class PostRequestHandler implements RequestHandler
 {

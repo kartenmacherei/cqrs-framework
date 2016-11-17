@@ -1,9 +1,9 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\Library\Parameter;
+namespace Kartenmacherei\CQRSFramework\Library\Parameter;
 
 
-use Kartenmacherei\HttpFramework\Library\Collection\AbstractIdentifier;
+use Kartenmacherei\CQRSFramework\Library\Collection\AbstractIdentifier;
 
 class ParameterIdentifier extends AbstractIdentifier
 {

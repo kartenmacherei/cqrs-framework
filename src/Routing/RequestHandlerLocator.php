@@ -1,8 +1,8 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\Routing;
+namespace Kartenmacherei\CQRSFramework\Routing;
 
-use Kartenmacherei\HttpFramework\Request\Request;
+use Kartenmacherei\CQRSFramework\Request\Request;
 use RuntimeException;
 
 class RequestHandlerLocator

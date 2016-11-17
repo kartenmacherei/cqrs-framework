@@ -1,6 +1,6 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\Http;
+namespace Kartenmacherei\CQRSFramework\Http;
 
 class RedirectResponseTest extends \PHPUnit_Framework_TestCase
 {

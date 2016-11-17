@@ -1,16 +1,16 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework;
+namespace Kartenmacherei\CQRSFramework;
 
-use Kartenmacherei\HttpFramework\ApplicationState\StateDataFileLoader;
-use Kartenmacherei\HttpFramework\ApplicationState\StateDataFileWriter;
-use Kartenmacherei\HttpFramework\ApplicationState\StateDataService;
-use Kartenmacherei\HttpFramework\Library\File\Directory;
-use Kartenmacherei\HttpFramework\Routing\GetRequestHandler;
-use Kartenmacherei\HttpFramework\Routing\GetRoute\GetRouteChain;
-use Kartenmacherei\HttpFramework\Routing\PostRequestHandler;
-use Kartenmacherei\HttpFramework\Routing\PostRoute\PostRouteChain;
-use Kartenmacherei\HttpFramework\Routing\RequestHandlerLocator;
+use Kartenmacherei\CQRSFramework\ApplicationState\StateDataFileLoader;
+use Kartenmacherei\CQRSFramework\ApplicationState\StateDataFileWriter;
+use Kartenmacherei\CQRSFramework\ApplicationState\StateDataService;
+use Kartenmacherei\CQRSFramework\Library\File\Directory;
+use Kartenmacherei\CQRSFramework\Routing\GetRequestHandler;
+use Kartenmacherei\CQRSFramework\Routing\GetRoute\GetRouteChain;
+use Kartenmacherei\CQRSFramework\Routing\PostRequestHandler;
+use Kartenmacherei\CQRSFramework\Routing\PostRoute\PostRouteChain;
+use Kartenmacherei\CQRSFramework\Routing\RequestHandlerLocator;
 
 class Factory
 {

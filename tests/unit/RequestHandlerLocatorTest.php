@@ -1,22 +1,22 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\Http;
+namespace Kartenmacherei\CQRSFramework\Http;
 
-use Kartenmacherei\HttpFramework\ApplicationController;
-use Kartenmacherei\HttpFramework\StateDataService;
-use Kartenmacherei\HttpFramework\Factory;
+use Kartenmacherei\CQRSFramework\ApplicationController;
+use Kartenmacherei\CQRSFramework\StateDataService;
+use Kartenmacherei\CQRSFramework\Factory;
 use PHPUnit_Framework_MockObject_MockObject;
 use PHPUnit_Framework_TestCase;
 
 /**
- * @uses   \Kartenmacherei\HttpFramework\Http\Path
- * @uses   \Kartenmacherei\HttpFramework\Http\Request
- * @uses   \Kartenmacherei\HttpFramework\Http\PostRequest
- * @uses   \Kartenmacherei\HttpFramework\Http\PostRequestHandler
- * @uses   \Kartenmacherei\HttpFramework\Http\GetRequest
- * @uses   \Kartenmacherei\HttpFramework\Http\GetRequestHandler
+ * @uses   \Kartenmacherei\CQRSFramework\Http\Path
+ * @uses   \Kartenmacherei\CQRSFramework\Http\Request
+ * @uses   \Kartenmacherei\CQRSFramework\Http\PostRequest
+ * @uses   \Kartenmacherei\CQRSFramework\Http\PostRequestHandler
+ * @uses   \Kartenmacherei\CQRSFramework\Http\GetRequest
+ * @uses   \Kartenmacherei\CQRSFramework\Http\GetRequestHandler
  *
- * @covers \Kartenmacherei\HttpFramework\Http\RequestHandlerLocator
+ * @covers \Kartenmacherei\CQRSFramework\Http\RequestHandlerLocator
  */
 class RequestHandlerLocatorTest extends PHPUnit_Framework_TestCase
 {

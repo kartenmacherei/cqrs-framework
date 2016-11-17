@@ -1,9 +1,9 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\Routing;
+namespace Kartenmacherei\CQRSFramework\Routing;
 
-use Kartenmacherei\HttpFramework\Request\Request;
-use Kartenmacherei\HttpFramework\Response\Response;
+use Kartenmacherei\CQRSFramework\Request\Request;
+use Kartenmacherei\CQRSFramework\Response\Response;
 
 interface RequestHandler
 {

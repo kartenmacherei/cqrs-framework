@@ -1,9 +1,9 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\Library\File;
+namespace Kartenmacherei\CQRSFramework\Library\File;
 
 use InvalidArgumentException;
-use Kartenmacherei\HttpFramework\Library\Exception\InvalidPathException;
+use Kartenmacherei\CQRSFramework\Library\Exception\InvalidPathException;
 
 class Directory
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\Library\Parameter;
+namespace Kartenmacherei\CQRSFramework\Library\Parameter;
 
 
-use Kartenmacherei\HttpFramework\Library\Collection\AbstractCollection;
+use Kartenmacherei\CQRSFramework\Library\Collection\AbstractCollection;
 
 class ParameterCollection extends AbstractCollection
 {

@@ -1,9 +1,7 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\Library\Exception;
+namespace Kartenmacherei\CQRSFramework\Library\Exception;
 
-use RuntimeException;
-
-class NotFoundInCollectionException extends RuntimeException implements Exception
+class NotFoundInCollectionException extends CQRSException
 {
 }

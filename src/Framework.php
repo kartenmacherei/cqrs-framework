@@ -1,14 +1,14 @@
 <?php
-namespace Kartenmacherei\HttpFramework;
+namespace Kartenmacherei\CQRSFramework;
 
-use Kartenmacherei\HttpFramework\ApplicationState\StateDataService;
-use Kartenmacherei\HttpFramework\Request\Request;
-use Kartenmacherei\HttpFramework\Response\Response;
-use Kartenmacherei\HttpFramework\Routing\GetRoute\GetRoute;
-use Kartenmacherei\HttpFramework\Routing\GetRoute\GetRouteChain;
-use Kartenmacherei\HttpFramework\Routing\PostRoute\PostRouteChain;
-use Kartenmacherei\HttpFramework\Routing\RequestHandlerLocator;
-use Kartenmacherei\HttpFramework\Routing\Routing\PostRoute\PostRoute;
+use Kartenmacherei\CQRSFramework\ApplicationState\StateDataService;
+use Kartenmacherei\CQRSFramework\Request\Request;
+use Kartenmacherei\CQRSFramework\Response\Response;
+use Kartenmacherei\CQRSFramework\Routing\GetRoute\GetRoute;
+use Kartenmacherei\CQRSFramework\Routing\GetRoute\GetRouteChain;
+use Kartenmacherei\CQRSFramework\Routing\PostRoute\PostRouteChain;
+use Kartenmacherei\CQRSFramework\Routing\RequestHandlerLocator;
+use Kartenmacherei\CQRSFramework\Routing\Routing\PostRoute\PostRoute;
 use RuntimeException;
 
 class Framework
@@ -52,11 +52,14 @@ class Framework
     }
 
     /**
+     * @param array $config
      * @return Framework
      */
-    public static function createInstance(): Framework
+    public static function createInstance($config = []): Framework
     {
-        $factory = new Factory('tmpStateData');
+        $config = new CQRSConfig($config);
+
+        $factory = new Factory($config->tmpStateDataDirectory());
 
         return new self(
             $factory->createApplicationState(),

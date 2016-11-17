@@ -1,21 +1,21 @@
 <?php
 
-namespace Kartenmacherei\HttpFramework\Http;
+namespace Kartenmacherei\CQRSFramework\Http;
 
-use Kartenmacherei\HttpFramework\StateDataService;
-use Kartenmacherei\HttpFramework\Command\LoginCommand;
-use Kartenmacherei\HttpFramework\Command\ProcessLoginRoute;
-use Kartenmacherei\HttpFramework\Factory;
-use Kartenmacherei\HttpFramework\Library\RoutingException;
+use Kartenmacherei\CQRSFramework\StateDataService;
+use Kartenmacherei\CQRSFramework\Command\LoginCommand;
+use Kartenmacherei\CQRSFramework\Command\ProcessLoginRoute;
+use Kartenmacherei\CQRSFramework\Factory;
+use Kartenmacherei\CQRSFramework\Library\RoutingException;
 use PHPUnit_Framework_MockObject_MockObject;
 use stdClass;
 
 /**
- * @uses   \Kartenmacherei\HttpFramework\Http\Path
- * @uses   \Kartenmacherei\HttpFramework\Http\PostRoute
- * @uses   \Kartenmacherei\HttpFramework\Command\ProcessLoginRoute
+ * @uses   \Kartenmacherei\CQRSFramework\Http\Path
+ * @uses   \Kartenmacherei\CQRSFramework\Http\PostRoute
+ * @uses   \Kartenmacherei\CQRSFramework\Command\ProcessLoginRoute
  *
- * @covers \Kartenmacherei\HttpFramework\Http\PostRouteChain
+ * @covers \Kartenmacherei\CQRSFramework\Http\PostRouteChain
  */
 class PostRouterTest extends \PHPUnit_Framework_TestCase
 {

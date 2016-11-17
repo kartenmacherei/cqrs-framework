@@ -1,5 +1,5 @@
 <?php
-namespace Kartenmacherei\HttpFramework\Response\Content;
+namespace Kartenmacherei\CQRSFramework\Response\Content;
 
 interface Content
 {

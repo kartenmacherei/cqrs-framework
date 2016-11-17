@@ -1,12 +1,12 @@
 <?php
-namespace Kartenmacherei\HttpFramework\Http;
+namespace Kartenmacherei\CQRSFramework\Http;
 
 /**
- * @uses   \Kartenmacherei\HttpFramework\Http\Parameter
- * @uses   \Kartenmacherei\HttpFramework\Library\Collection
- * @uses   \Kartenmacherei\HttpFramework\Library\AbstractIdentifier
+ * @uses   \Kartenmacherei\CQRSFramework\Http\Parameter
+ * @uses   \Kartenmacherei\CQRSFramework\Library\Collection
+ * @uses   \Kartenmacherei\CQRSFramework\Library\AbstractIdentifier
  *
- * @covers \Kartenmacherei\HttpFramework\Http\ParameterCollection
+ * @covers \Kartenmacherei\CQRSFramework\Http\ParameterCollection
  */
 class ParameterCollectionTest extends \PHPUnit_Framework_TestCase
 {

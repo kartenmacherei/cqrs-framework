@@ -1,13 +1,13 @@
 <?php
-namespace Kartenmacherei\HttpFramework\Request;
+namespace Kartenmacherei\CQRSFramework\Request;
 
-use Kartenmacherei\HttpFramework\ApplicationState\StateData;
-use Kartenmacherei\HttpFramework\Library\Exception\NotFoundInCollectionException;
-use Kartenmacherei\HttpFramework\Library\File\Path;
-use Kartenmacherei\HttpFramework\Library\Parameter\Parameter;
-use Kartenmacherei\HttpFramework\Library\Parameter\ParameterCollection;
-use Kartenmacherei\HttpFramework\Library\Parameter\ParameterIdentifier;
-use Kartenmacherei\HttpFramework\Library\SessionId;
+use Kartenmacherei\CQRSFramework\ApplicationState\StateData;
+use Kartenmacherei\CQRSFramework\Library\Exception\NotFoundInCollectionException;
+use Kartenmacherei\CQRSFramework\Library\File\Path;
+use Kartenmacherei\CQRSFramework\Library\Parameter\Parameter;
+use Kartenmacherei\CQRSFramework\Library\Parameter\ParameterCollection;
+use Kartenmacherei\CQRSFramework\Library\Parameter\ParameterIdentifier;
+use Kartenmacherei\CQRSFramework\Library\SessionId;
 use RuntimeException;
 
 abstract class Request
