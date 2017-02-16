@@ -1,5 +1,5 @@
 {
-    "name": "kartenmacherei/http-framework",
+    "name": "kartenmacherei/cqrs-framework",
     "description": "Micro framework for creating CQRS applications",
     "type": "library",
     "keywords": ["framework", "http", "kartenmacherei"],

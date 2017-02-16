@@ -10,26 +10,33 @@ class Path
     private $path;
 
     /**
+     * @var array
+     */
+    private $segments;
+
+    /**
      * @param string $path
      */
-    public function __construct($path)
+    public function __construct(string $path)
     {
         $this->path = $path;
+        $this->segments = explode('/', trim($this->path, '/'));
     }
 
     /**
      * @return string
      */
-    public function asString()
+    public function asString() : string
     {
         return $this->path;
     }
 
     /**
      * @param Path $path
+     *
      * @return bool
      */
-    public function equals(Path $path)
+    public function equals(Path $path) : bool
     {
         return $this->asString() === $path->asString();
     }
@@ -39,7 +46,7 @@ class Path
      *
      * @return bool
      */
-    public function contains(Path $path)
+    public function contains(Path $path) : bool
     {
         return (strstr($this->asString(), $path->asString()) !== false);
     }
@@ -49,7 +56,7 @@ class Path
      *
      * @return bool
      */
-    public function startsWith(Path $path)
+    public function startsWith(Path $path) : bool
     {
         return (substr($this->asString(), 0, strlen($path->asString())) === $path->asString());
     }
@@ -57,11 +64,20 @@ class Path
     /**
      * @param int $index
      *
+     * @return bool
+     */
+    public function hasSegment(int $index) : bool
+    {
+        return isset($this->segments[$index]);
+    }
+
+    /**
+     * @param int $index
+     *
      * @return string
      */
-    public function segment($index)
+    public function segment(int $index) : string
     {
-        $segments = explode('/', trim($this->path, '/'));
-        return $segments[$index];
+        return $this->segments[$index];
     }
 }
