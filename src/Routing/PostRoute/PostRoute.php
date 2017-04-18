@@ -1,6 +1,6 @@
 <?php
 
-namespace Kartenmacherei\CQRSFramework\Routing\Routing\PostRoute;
+namespace Kartenmacherei\CQRSFramework\Routing\PostRoute;
 
 use Kartenmacherei\CQRSFramework\Library\Exception\RoutingException;
 use Kartenmacherei\CQRSFramework\Request\PostRequest;
