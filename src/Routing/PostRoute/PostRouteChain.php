@@ -4,7 +4,6 @@ namespace Kartenmacherei\CQRSFramework\Routing\PostRoute;
 use Kartenmacherei\CQRSFramework\Library\Exception\RoutingException;
 use Kartenmacherei\CQRSFramework\Request\PostRequest;
 use Kartenmacherei\CQRSFramework\Routing\Command\Command;
-use Kartenmacherei\CQRSFramework\Routing\Routing\PostRoute\PostRoute;
 
 class PostRouteChain
 {

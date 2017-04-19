@@ -6,9 +6,9 @@ use Kartenmacherei\CQRSFramework\Request\Request;
 use Kartenmacherei\CQRSFramework\Response\Response;
 use Kartenmacherei\CQRSFramework\Routing\GetRoute\GetRoute;
 use Kartenmacherei\CQRSFramework\Routing\GetRoute\GetRouteChain;
+use Kartenmacherei\CQRSFramework\Routing\PostRoute\PostRoute;
 use Kartenmacherei\CQRSFramework\Routing\PostRoute\PostRouteChain;
 use Kartenmacherei\CQRSFramework\Routing\RequestHandlerLocator;
-use Kartenmacherei\CQRSFramework\Routing\Routing\PostRoute\PostRoute;
 use RuntimeException;
 
 class Framework
