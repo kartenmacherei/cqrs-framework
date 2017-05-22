@@ -91,7 +91,7 @@ class Framework
      */
     public function run(Request $request) : Response
     {
-        $stateData = $this->stateDataService->loadData($request->sessionId());
+        $stateData = $this->stateDataService->loadData($request->stateData());
 
         $request->setStateData($stateData);
 

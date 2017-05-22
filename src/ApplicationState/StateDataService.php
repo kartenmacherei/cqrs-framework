@@ -2,8 +2,6 @@
 
 namespace Kartenmacherei\CQRSFramework\ApplicationState;
 
-use Kartenmacherei\CQRSFramework\Library\SessionId;
-
 class StateDataService
 {
     /**
