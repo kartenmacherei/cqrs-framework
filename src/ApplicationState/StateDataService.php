@@ -27,12 +27,13 @@ class StateDataService
     }
 
     /**
-     * @param SessionId $sessionId
+     * @param StateData $stateData
+     *
      * @return StateData
      */
-    public function loadData(SessionId $sessionId) : StateData
+    public function loadData(StateData $stateData) : StateData
     {
-        return $this->stateDataFileLoader->load($sessionId);
+        return $this->stateDataFileLoader->load($stateData);
     }
 
     /**
