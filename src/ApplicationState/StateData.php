@@ -9,12 +9,7 @@ class StateData
     /**
      * @var SessionId
      */
-    private $sessionId;
-
-    /**
-     * @var bool
-     */
-    private $loggedIn = false;
+    protected $sessionId;
 
     /**
      * @param SessionId $sessionId
@@ -27,27 +22,8 @@ class StateData
     /**
      * @return SessionId
      */
-    public function sessionId()
+    public function sessionId(): SessionId
     {
         return $this->sessionId;
-    }
-
-    public function setAsLoggedIn()
-    {
-        $this->sessionId->regenerate();
-
-        $this->loggedIn = true;
-    }
-
-    public function setAsLoggedOut()
-    {
-        $this->sessionId->regenerate();
-
-        $this->loggedIn = false;
-    }
-
-    public function isLoggedIn()
-    {
-        return $this->loggedIn;
     }
 }
