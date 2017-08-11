@@ -1,5 +1,5 @@
 <?php
-namespace Kartenmacherei\CQRSFramework;
+namespace Kartenmacherei\CQRSFramework\Response\Header;
 
 use Kartenmacherei\CQRSFramework\Library\File\Path;
 use Kartenmacherei\CQRSFramework\Response\Header\Header;

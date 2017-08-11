@@ -3,7 +3,7 @@
 namespace Kartenmacherei\CQRSFramework\Response;
 
 use Kartenmacherei\CQRSFramework\Library\File\Path;
-use Kartenmacherei\CQRSFramework\TemporaryRedirectHeader;
+use Kartenmacherei\CQRSFramework\Response\Header\TemporaryRedirectHeader;
 
 class RedirectResponse extends AbstractResponse
 {
